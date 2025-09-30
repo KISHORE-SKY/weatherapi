@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image:linear-gradient(to bottom,skyblue, rgb(204, 204, 216));
+}
+
+
+.over-all{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 40px;
+
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+
+h1{
+    font-size: 25px;
+    font-weight: 300;
+   
+}
+
+.fa-cloud-bolt{
+    font-size: 30px;
+    color: rgb(19, 122, 206);
+}
+
+
+.paragraphy{
+    padding: 20px;  
+    font-size:20px;
+    line-height: 10;
+}
+
+.location{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    padding-inline: 15px;
+}
+
+.fa-magnifying-glass{
+    font-size: 20px;
+    color: rgb(136, 136, 228);
+    position: absolute;
+    left: 390px;
+    top: 20px;  
+}
+.search-inp{
+    margin: 10px;
+    padding: 9px;
+    padding-inline: 20px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px rgb(187, 183, 183);
+    border-radius: 20px;
+
+}
+
+
+.section-03{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.image{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    margin: 30px;
+}
+
+.degree{
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+.degree-cloud{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    padding: 20px;
+    margin: 30px;
+    height: 224px;
+    width: 290px;   
+}
+
+
+.o{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.para-sky{
+    font-size: 20px;
+    font-weight:300;
+}
+
+.date-details{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    padding: 45px;  
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.main-process{
+    display: flex;
+    justify-content: flex-start;
+
+    gap: 20px;
+}
+
+
+.section-35{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 10px;
+    margin: 35px;
+}
+
+.location-para{
+    font-size: 25px;
+    width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+}
+
+.section-04{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    height: 180px;
+    width: 250px;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    background-color: cornflowerblue;
+}
+
+
+
+@media(min-width:320px) and (max-width:425px){
+    .section-03{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-process {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .degree-cloud{
+        width: 225px;
+    }
+
+    .section-35 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 0;
+    }
+}
